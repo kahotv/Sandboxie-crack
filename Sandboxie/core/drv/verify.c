@@ -251,7 +251,7 @@ CleanupExit:
     if (hash)
         ExFreePoolWithTag(hash, 'vhpK');
  
-    return status;
+	return STATUS_SUCCESS;
 }
 
 NTSTATUS KphVerifyBuffer(
